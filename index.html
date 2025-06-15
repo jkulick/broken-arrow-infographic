@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Broken Arrow: A Commander's Strategic Cheatsheet (Enhanced)</title>
+    <title>Broken Arrow: A Commander's Strategic Cheatsheet (Comprehensive)</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -147,6 +147,55 @@
                     <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
                         <div class="chart-container" style="height: 50vh; max-height: 500px;"><canvas id="usSpecChart"></canvas></div>
                         <p class="mt-4 text-gray-400">The US factions offer diverse strategic options. <strong style="color: #00A1E4;">Armored Brigade</strong> is a ground-based behemoth with no air assets. <strong style="color: #00A1E4;">Airborne Infantry</strong> and <strong style="color: #00A1E4;">SOF</strong> excel in the air but have limited ground vehicle options. <strong style="color: #00A1E4;">USMC</strong> and <strong style="color: #00A1E4;">Stryker Cavalry</strong> offer more balanced, combined-arms approaches, with the latter having no helicopters.</p>
+                         <h4 class="text-xl font-bold mt-8 mb-4">Key Unit Considerations:</h4>
+                        <ul class="list-disc list-inside text-gray-400 space-y-2">
+                            <li><strong style="color: #00BADE;">USMC:</strong>
+                                <ul class="list-disc list-inside ml-4">
+                                    <li><strong style="color: #0076C0;">Marine Raiders:</strong> Elite infantry for heavy line or shock roles (CQC).</li>
+                                    <li><strong style="color: #0076C0;">AV-88 Night Attack Harrier:</strong> Efficient air unit, excellent ATGM and low-altitude bombing.</li>
+                                    <li><strong style="color: #0076C0;">AAVP Catfae:</strong> Short-range rocket artillery, devastating against clustered infantry/light vehicles.</li>
+                                    <li><strong style="color: #0076C0;">M1A1 FEP Trophy:</strong> Heavy tank with HE ammo for high destructive power.</li>
+                                    <li><strong style="color: #0076C0;">AH-1Z Viper:</strong> Fast heli with versatile hardpoints (rockets, Hellfire, Stingers), light SEAD.</li>
+                                    <li><strong style="color: #0076C0;">Assaultment:</strong> Infantry with SMAW (heavy AT/anti-inf) or SRAWs (light vehicle/inf).</li>
+                                </ul>
+                            </li>
+                            <li><strong style="color: #00BADE;">Armored Brigade:</strong>
+                                <ul class="list-disc list-inside ml-4">
+                                    <li><strong style="color: #0076C0;">M1A2 SEP v3:</strong> Heaviest US tank, thick armor, 4 APS, 2 smoke, 3 ammo types, MGs.</li>
+                                    <li><strong style="color: #0076C0;">M3A4 CFV:</strong> Recon Bradley transport for cavalry scouts, potent top-attack TOW missile (12 rounds).</li>
+                                    <li><strong style="color: #0076C0;">Patriot PAC-2:</strong> Longest-range US SAM (21 damage), can one-shot Russian jets.</li>
+                                    <li><strong style="color: #0076C0;">M270 MLRS/M270A2 GMLRS:</strong> Powerful rocket artillery with explosive, cluster, ballistic munitions.</li>
+                                    <li><strong style="color: #0076C0;">M6 Linebacker M-SHORAD:</strong> SHORAD Bradley with Stingers/Hellfires, autocannon, intercepts cruise/SEAD missiles.</li>
+                                </ul>
+                            </li>
+                            <li><strong style="color: #00BADE;">Airborne Infantry:</strong>
+                                <ul class="list-disc list-inside ml-4">
+                                    <li><strong style="color: #0076C0;">Weapons Squad:</strong> Two Javelins, two MMGs, strong defensive infantry.</li>
+                                    <li><strong style="color: #0076C0;">Stinger Team:</strong> Efficient MANPAD (two Stingers per squad), high anti-air concentration.</li>
+                                    <li><strong style="color: #0076C0;">AH-64 D Longbow:</strong> Superior attack heli, "Fire and Forget" Hellfire, Hydra rockets.</li>
+                                    <li><strong style="color: #0076C0;">OH-58 D Kiowa Warrior:</strong> Efficient, versatile heli vs. choppers, good ECM, optronic mast for vision, high stealth (1.75).</li>
+                                    <li><strong style="color: #0076C0;">F15EX Eagle II:</strong> Strong aircraft, vast munitions/payload, fills multiple roles.</li>
+                                </ul>
+                            </li>
+                            <li><strong style="color: #00BADE;">Stryker Cavalry Regiment:</strong>
+                                <ul class="list-disc list-inside ml-4">
+                                    <li><strong style="color: #0076C0;">Stryker ICV:</strong> Highly effective transport, configurable with autocannon or Javelin/AGL/HMG, APS, extra armor.</li>
+                                    <li><strong style="color: #0076C0;">F-16 CJ:</strong> Full SEAD capable (faster option than Prowler), effective Anti-Air weapons.</li>
+                                    <li><strong style="color: #0076C0;">Patriot PAC-3 MSE:</strong> Long-range SAM, multiple target/missile capability, extremely deadly.</li>
+                                    <li><strong style="color: #0076C0;">M142 Himars:</strong> Versatile rocket artillery with cluster/HE/laser-guided ballistic missiles.</li>
+                                    <li><strong style="color: #0076C0;">M10 Booker:</strong> Versatile medium tank, heavy autocannon, efficient vs. infantry/light vehicles/close helis.</li>
+                                </ul>
+                            </li>
+                            <li><strong style="color: #00BADE;">Special Operations Forces (SOF):</strong>
+                                <ul class="list-disc list-inside ml-4">
+                                    <li><strong style="color: #0076C0;">Pararescue (STT):</strong> Elite recon, excellent vision/stealth/optics, silenced long-range, high-performance MANPAD, laser designation, Silent Hawk transport.</li>
+                                    <li><strong style="color: #0076C0;">RQ-170 Sentinel:</strong> Premier pure recon drone, excellent optics/stealth.</li>
+                                    <li><strong style="color: #0076C0;">MH-6 Little Bird:</strong> Valuable, low-cost transport heli, transports smaller units, solid stealth (1.75), optronic ball for scouting.</li>
+                                    <li><strong style="color: #0076C0;">RAH-66 Comanche:</strong> Stealth attack heli, excellent optics/stealth/speed, effective vs. enemy helis with Stingers.</li>
+                                    <li><strong style="color: #0076C0;">B-2 Spirit:</strong> Stealth heavy bomber, large payload (incl. nuclear), complements high vision.</li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div>
@@ -156,48 +205,52 @@
                         <p class="mt-4 text-gray-400">Russian specializations often feature powerful, focused designs. <strong style="color: #00A1E4;">Guard Tank</strong> and <strong style="color: #00A1E4;">Mechanized Infantry</strong> are ground-centric powerhouses with no helicopters. <strong style="color: #00A1E4;">Motorized Infantry</strong> sacrifices heavy armor for incredible artillery and infantry options. <strong style="color: #00A1E4;">VDV</strong> and <strong style="color: #00A1E4;">Coastal Troops</strong> provide more versatile, mobile forces.</p>
                         <h4 class="text-xl font-bold mt-8 mb-4">Key Unit Considerations:</h4>
                         <ul class="list-disc list-inside text-gray-400 space-y-2">
-                            <li><strong style="color: #00BADE;">Recon:</strong>
+                            <li><strong style="color: #00BADE;">VDV Brigade:</strong>
                                 <ul class="list-disc list-inside ml-4">
-                                    <li><strong style="color: #0076C0;">Diversanty:</strong> Stealth 3 with Informers (true scouts), but drops to 2.5 with Ambushers (nice AT).</li>
-                                    <li><strong style="color: #0076C0;">Spetsnaz GRU:</strong> Exceptionally strong. Consider equipping with RPG-28 HVY AT for close-range power (400m range).</li>
-                                    <li><strong style="color: #0076C0;">PRP, UAZ, Korsar:</strong> Viability requires further testing.</li>
+                                    <li><strong style="color: #0076C0;">Su-34:</strong> Powerful strike jet, vast loadouts, KAB-1500 smart bombs/heavy ATGMs/SEAD.</li>
+                                    <li><strong style="color: #0076C0;">Typhoon VDV:</strong> Recon infantry transport, high speed, reasonable stealth (1.25), optional 30mm autocannon.</li>
+                                    <li><strong style="color: #0076C0;">VDV Kornet-M:</strong> Premier AT infantry (5-man, two ATGMs), extreme anti-armor.</li>
+                                    <li><strong style="color: #0076C0;">Mi-28NM Mikhalych:</strong> Attack heli with LMUR HE missiles (excellent range/firepower), or 6 Vikhr ATGMs, 4 Iglas, S-8 Rockets.</li>
+                                    <li><strong style="color: #0076C0;">Su-57:</strong> Highly configurable jet (SEAD, strike, elite ASF).</li>
                                 </ul>
                             </li>
-                            <li><strong style="color: #00BADE;">Infantry:</strong>
+                            <li><strong style="color: #00BADE;">Coastal Troops:</strong>
                                 <ul class="list-disc list-inside ml-4">
-                                    <li><strong style="color: #0076C0;">AGS-17:</strong> Units with crew-served grenade launchers delete infantry not in buildings and can damage poorly armored vehicles.</li>
-                                    <li><strong style="color: #0076C0;">Motopekhota:</strong> Versatile standard combat units, can be equipped with "weaker" versions such as PRG-7 or GP-24.</li>
-                                    <li><strong style="color: #0076C0;">PTO Metis:</strong> AT team (800m range), reportedly capable of firing two rockets at once, which could be very impactful.</li>
-                                    <li><strong style="color: #0076C0;">PTRK Kornet:</strong> Improved AT team with 1600m range.</li>
-                                    <li><strong style="color: #0076C0;">PZRK Igla:</strong> Go with Igla-S for traditional MANPADS.</li>
-                                    <li><strong style="color: #0076C0;">SSO:</strong> CQC unit, can be specialized for range or full "Berserker" (flashbang & thermobaric).</li>
+                                    <li><strong style="color: #0076C0;">Tu-22M3:</strong> Afterburner heavy bomber, two units available, smaller payload (no nuclear).</li>
+                                    <li><strong style="color: #0076C0;">Ka-52K Katran:</strong> Elite attack heli, high ECM, Hermes fire-and-forget ATGMs, cruise/SEAD missiles.</li>
+                                    <li><strong style="color: #0076C0;">Spetsnaz VMF:</strong> Elite recon (fire support config), optics, stealth, laser designation, heavy armor, two DMRs, two anti-material rifles.</li>
+                                    <li><strong style="color: #0076C0;">Chernye Berety:</strong> Elite line infantry (largest), heavily armed (LMGs, UGL, ARs, heavy RPGs).</li>
+                                    <li><strong style="color: #0076C0;">9K720 Iskander:</strong> Ground-based cruise missile launcher, fires 4 powerful cruise missiles rapidly.</li>
                                 </ul>
                             </li>
-                            <li><strong style="color: #00BADE;">Vehicles:</strong>
+                            <li><strong style="color: #00BADE;">Guard Tank Brigade:</strong>
                                 <ul class="list-disc list-inside ml-4">
-                                    <li><strong style="color: #0076C0;">BTR-82:</strong> It has wheels instead of tracks = speed; Will be going upgraded to Konkurs.</li>
-                                    <li><strong style="color: #0076C0;">K16-Bumerang:</strong> Wheeled; can get APS on it.</li>
+                                    <li><strong style="color: #0076C0;">T-15 Barbaris:</strong> Heavy APC, powerful autocannon, heavy tank armor, 4 APS, 8 infantry capacity.</li>
+                                    <li><strong style="color: #0076C0;">T-14 Armata:</strong> Heaviest Russian vehicle, all heavy tank benefits, long-range missile, high speed (80/60).</li>
+                                    <li><strong style="color: #0076C0;">S-300V4 Antey:</strong> Formidable SAM (25 damage), can one-shot planes.</li>
+                                    <li><strong style="color: #0076C0;">2S35 Koalitsiya-SV:</strong> Highest rate of fire for long-range tube artillery, generous ammo.</li>
+                                    <li><strong style="color: #0076C0;">BRM-3K:</strong> Recon vehicle, 57mm autocannon, twin-firing ATGMs.</li>
+                                    <li><strong style="color: #0076C0;">Derivatsiya:</strong> SHORAD, 57mm autocannon (extended range), Sosna upgrade for long-range anti-heli.</li>
                                 </ul>
                             </li>
-                            <li><strong style="color: #00BADE;">Support:</strong>
+                            <li><strong style="color: #00BADE;">Motorized Infantry:</strong>
                                 <ul class="list-disc list-inside ml-4">
-                                    <li><strong style="color: #0076C0;">Grad:</strong> Interesting with ammo types. Clusters can top pen. Fire ignores cover. 3200m range might be a challenge.</li>
-                                    <li><strong style="color: #0076C0;">Smerch:</strong> Big brother of Grad + Guided; 5,000m range…longer if you use guided.</li>
-                                    <li><strong style="color: #0076C0;">Osa:</strong> AA, would only get the stabilized to also hit missiles. Used as part of your “AA Net” but not solo.</li>
-                                    <li><strong style="color: #0076C0;">S-300:</strong> Big brother of Osa.</li>
-                                    <li><strong style="color: #0076C0;">Tochka:</strong> Ballistic Missile launcher; probly niche use.</li>
-                                    <li><strong style="color: #0076C0;">Ural 4320/Ural 5323:</strong> Can carry 16 troops at speed 80 or 4k supply or a combination.</li>
-                                    <li><strong style="color: #0076C0;">ZU-23:</strong> Interesting; consider Igla upgrade.</li>
+                                    <li><strong style="color: #0076C0;">9K58 Smerch:</strong> Powerful rocket artillery, 300mm HE/Cluster (standard/laser-guided).</li>
+                                    <li><strong style="color: #0076C0;">9K51 Grad:</strong> Rocket artillery, 40-round magazine, unique incendiary rockets (ignores cover).</li>
+                                    <li><strong style="color: #0076C0;">Spetsnaz GRU:</strong> Elite recon infantry (8-man), heavy armor, powerful short-range AT/MANPADs.</li>
+                                    <li><strong style="color: #0076C0;">S-300PM2 Favorit:</strong> Deadly SAM, long range, exceptional damage (single-shot planes).</li>
+                                    <li><strong style="color: #0076C0;">PZRK Igla:</strong> Efficient MANPADs (twice the concentration).</li>
+                                    <li><strong style="color: #0076C0;">Ural 4320/Ural 5323:</strong> Supply trucks, can transport troops/supply simultaneously.</li>
                                 </ul>
                             </li>
-                            <li><strong style="color: #00BADE;">Helicopters & Air:</strong>
+                            <li><strong style="color: #00BADE;">Mechanized Infantry:</strong>
                                 <ul class="list-disc list-inside ml-4">
-                                    <li>Gunpods are now effective vs other Helis or Inf.</li>
-                                    <li>All faction Helis have massive versatility and should complement your deck.</li>
-                                    <li>Consider rapid response AT Helo, Anti-Helo, or Anti-Inf Helo roles.</li>
-                                    <li>Transport helis are critical for quickly bringing in supplies or troops.</li>
-                                    <li>Always consider SEAD in any/all decks.</li>
-                                    <li><strong style="color: #0076C0;">Su-25T:</strong> Looks extremely interesting due to its options.</li>
+                                    <li><strong style="color: #0076C0;">2S4 Tulpan:</strong> Super heavy mortar (18 damage, 70 blast radius).</li>
+                                    <li><strong style="color: #0076C0;">2S7M Malka:</strong> Tube artillery, trades rate of fire for largest shell, lower cost.</li>
+                                    <li><strong style="color: #0076C0;">BMP-2M:</strong> Upgraded IFV, 30mm autocannon, AGL, twin-firing ATGM.</li>
+                                    <li><strong style="color: #0076C0;">T-72B3M:</strong> Workhorse ground unit, three ammo types, ATGM, 4-charge APS.</li>
+                                    <li><strong style="color: #0076C0;">RPG-29 Vampyr:</strong> Two long-range direct fire RPGs, solid penetration.</li>
+                                    <li><strong style="color: #0076C0;">96K6 Pantsir-S1:</strong> Ultimate SHORAD, Pantsir missiles (one-shot lighter helis), twin rotary cannons, intercepts SEAD/cruise missiles.</li>
                                 </ul>
                             </li>
                         </ul>
