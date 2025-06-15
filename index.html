@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Broken Arrow: A Commander's Cheatsheet</title>
+    <title>Broken Arrow: A Commander's Strategic Cheatsheet (Revised)</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -154,6 +154,52 @@
                     <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
                         <div class="chart-container" style="height: 50vh; max-height: 500px;"><canvas id="ruSpecChart"></canvas></div>
                         <p class="mt-4 text-gray-400">Russian specializations often feature powerful, focused designs. <strong style="color: #00A1E4;">Guard Tank</strong> and <strong style="color: #00A1E4;">Mechanized Infantry</strong> are ground-centric powerhouses with no helicopters. <strong style="color: #00A1E4;">Motorized Infantry</strong> sacrifices heavy armor for incredible artillery and infantry options. <strong style="color: #00A1E4;">VDV</strong> and <strong style="color: #00A1E4;">Coastal Troops</strong> provide more versatile, mobile forces.</p>
+                        <h4 class="text-xl font-bold mt-8 mb-4">Key Unit Considerations:</h4>
+                        <ul class="list-disc list-inside text-gray-400 space-y-2">
+                            <li><strong style="color: #00BADE;">Recon:</strong>
+                                <ul class="list-disc list-inside ml-4">
+                                    <li><strong style="color: #0076C0;">Diversanty:</strong> Stealth 3 with Informers (true scouts), but drops to 2.5 with Ambushers (nice AT).</li>
+                                    <li><strong style="color: #0076C0;">Spetsnaz GRU:</strong> Exceptionally strong. Consider equipping with RPG-28 HVY AT for close-range power (400m range).</li>
+                                    <li><strong style="color: #0076C0;">PRP, UAZ, Korsar:</strong> Viability requires further testing.</li>
+                                </ul>
+                            </li>
+                            <li><strong style="color: #00BADE;">Infantry:</strong>
+                                <ul class="list-disc list-inside ml-4">
+                                    <li><strong style="color: #0076C0;">AGS-17:</strong> Units with crew-served grenade launchers delete infantry not in buildings and can damage poorly armored vehicles.</li>
+                                    <li><strong style="color: #0076C0;">Motopekhota:</strong> Versatile standard combat units, can be equipped with "weaker" versions like PRG-7 or GP-24.</li>
+                                    <li><strong style="color: #0076C0;">PTO Metis:</strong> AT team (800m range), reportedly capable of firing two rockets at once, which could be very impactful.</li>
+                                    <li><strong style="color: #0076C0;">PTRK Kornet:</strong> Improved AT team with 1600m range.</li>
+                                    <li><strong style="color: #0076C0;">PZRK Igla:</strong> Go with Igla-S for traditional MANPADS.</li>
+                                    <li><strong style="color: #0076C0;">SSO:</strong> CQC unit, can be specialized for range or full "Berserker" (flashbang & thermobaric).</li>
+                                </ul>
+                            </li>
+                            <li><strong style="color: #00BADE;">Vehicles:</strong>
+                                <ul class="list-disc list-inside ml-4">
+                                    <li><strong style="color: #0076C0;">BTR-82:</strong> Wheeled for speed. Consider upgrading to Konkurs.</li>
+                                    <li><strong style="color: #0076C0;">K16-Bumerang:</strong> Wheeled and can be equipped with APS.</li>
+                                </ul>
+                            </li>
+                            <li><strong style="color: #00BADE;">Support:</strong>
+                                <ul class="list-disc list-inside ml-4">
+                                    <li><strong style="color: #0076C0;">Grad:</strong> Interesting with ammo types. Clusters for top penetration. Fire rounds ignore cover. 3200m range might be a challenge.</li>
+                                    <li><strong style="color: #0076C0;">Smerch:</strong> Grad's big brother, with guided options and 5000m+ range.</li>
+                                    <li><strong style="color: #0076C0;">Osa:</strong> AA unit, consider stabilized version to hit missiles. Use as part of an "AA Net," not solo.</li>
+                                    <li><strong style="color: #0076C0;">S-300:</strong> Osa's big brother.</li>
+                                    <li><strong style="color: #0076C0;">Tochka:</strong> Ballistic Missile launcher, potentially niche.</li>
+                                    <li><strong style="color: #0076C0;">Ural 4320/Ural 5323:</strong> Excellent supply trucks, capable of carrying 16 troops or 4k supply (or a combination) at speed 80.</li>
+                                    <li><strong style="color: #0076C0;">ZU-23:</strong> Interesting AA option, consider Igla upgrade.</li>
+                                </ul>
+                            </li>
+                            <li><strong style="color: #00BADE;">Helicopters & Air:</strong>
+                                <ul class="list-disc list-inside ml-4">
+                                    <li>Gunpods have improved against other helicopters and infantry.</li>
+                                    <li>All faction helicopters offer massive versatility; build them to complement your deck or shore up weaknesses (e.g., rapid response AT, Anti-Heli, or Anti-Infantry Helo).</li>
+                                    <li>Always consider taking transport helicopters for rapid supply or troop deployment.</li>
+                                    <li>Likely include SEAD in any deck to counter enemy radar AA.</li>
+                                    <li><strong style="color: #0076C0;">Su-25T:</strong> Looks to have extremely interesting options.</li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -212,33 +258,70 @@
             </div>
         </section>
 
-        <section id="advanced-tactics" class="my-16">
-            <h2 class="text-3xl font-bold text-center mb-2" style="color: #00BADE;">Commander's Insights: Advanced Tactics</h2>
+        <section id="tactical-insights" class="my-16">
+            <h2 class="text-3xl font-bold text-center mb-2" style="color: #00BADE;">Tactical Insights: In-Game Execution</h2>
             <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">Beyond deck composition, effective in-game execution of units and systems can drastically impact the outcome of a match. Master these tactical nuances.</p>
+            
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
                 <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                    <h3 class="text-xl font-bold mb-4 flex items-center"><span class="mr-3 text-xl" style="color: #00A1E4;">📡</span>Smart Recon for Strikes</h3>
-                    <p class="mt-4 text-gray-400">Utilize recon drones (e.g., RQ4) not just for general spotting, but specifically to acquire initial target lock for long-range, high-value assets like cruise missiles or heavy bombers. Even if the recon unit is lost, the initial spot can enable devastating strikes from units kept far from the frontline for safety. This maximizes the value of both your recon and your expensive fire-support.</p>
+                    <h3 class="text-xl font-bold mb-4 flex items-center"><span class="mr-3 text-xl" style="color: #00A1E4;">🔭</span>Optics & Stealth Mechanics</h3>
+                    <p class="mt-4 text-gray-400">
+                        <strong style="color: #00BADE;">Optics:</strong> Determines how far a unit can see. Standard optics for most units is 1200m. <br>
+                        <strong style="color: #00BADE;">Stealth:</strong> The opposite of optics, hindering enemy vision. <br>
+                        <strong style="color: #00BADE;">Detection Distance:</strong> Optics / Stealth = distance seen. E.g., a 1200 Optics unit sees a Stealth 3 Recon at 400m (1200/3). <br>
+                        <strong style="color: #00BADE;">Terrain Impact:</strong> Trees and buildings multiply a unit's Stealth value by 2, significantly reducing detection range. They also reduce incoming damage by 2x. <br>
+                        <strong style="color: #00BADE;">"Flash Effect":</strong> A unit's Stealth value is temporarily lowered when it fires. Repeated firing stacks this "flash effect," making the unit easier to spot. This effect fades if the unit ceases fire.
+                    </p>
                 </div>
                 <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                    <h3 class="text-xl font-bold mb-4 flex items-center"><span class="mr-3 text-xl" style="color: #00A1E4;">🔄</span>Fire-and-Move Discipline</h3>
-                    <p class="mt-4 text-gray-400">For high-end, vulnerable systems like Patriot SAMs, S300, or ATACMS, implement a strict "fire-and-move" protocol. Immediately after launching a missile and neutralizing the threat, **turn off their radar, relocate them, and resupply.** This aggressive repositioning frustrates enemy counter-battery attempts and significantly increases the survivability of your most valuable support assets.</p>
+                    <h3 class="text-xl font-bold mb-4 flex items-center"><span class="mr-3 text-xl" style="color: #00A1E4;">🛡️</span>Armor vs. Penetration</h3>
+                    <p class="mt-4 text-gray-400">
+                        <strong style="color: #00BADE;">Kinetic Damage:</strong> <br>
+                        - If Penetration (Pen) equals Armor, 100% damage is dealt (e.g., Pen 500 vs. Armor 500 = 80 dmg). <br>
+                        - If Pen is half of Armor, only 50% damage is dealt (e.g., Pen 250 vs. Armor 500 = 40 dmg). <br>
+                        <strong style="color: #00BADE;">Explosive/HE/HEAT Damage:</strong> Always deals some damage in a bell-curve distribution. At less than half/equal/twice the target's armor value relative to penetration, damage is approximately 20%/50%/80% respectively. <br>
+                        <strong style="color: #00BADE;">Top Armor Hits:</strong> Some weapons hit "Top" armor, which is a different, often more deadly, mechanic as top armor is typically thinner. <br>
+                        <strong style="color: #00BADE;">Active Protection Systems (APS):</strong> APS has a limited number of "charges" and can only trigger once every 5 seconds. This cooldown is crucial to exploit.
+                    </p>
                 </div>
                 <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                    <h3 class="text-xl font-bold mb-4 flex items-center"><span class="mr-3 text-xl" style="color: #00A1E4;">📦</span>Strategic Supply Placement</h3>
-                    <p class="mt-4 text-gray-400">Never cluster supply depots directly adjacent to your high-value units (e.g., ATACMS). If an enemy artillery strike hits a supply depot, the resulting large explosion will likely destroy any nearby expensive systems. Conversely, actively seek out and target enemy supply depots with your own artillery, as their destruction can cripple an opponent's sustained operations.</p>
+                    <h3 class="text-xl font-bold mb-4 flex items-center"><span class="mr-3 text-xl" style="color: #00A1E4;">💰</span>Economy Flow</h3>
+                    <p class="mt-4 text-gray-400">
+                        <strong style="color: #00BADE;">Deck Value:</strong> Max out your deck at 10,000 points; this is your 'starting economy' value. <br>
+                        <strong style="color: #00BADE;">Base Income:</strong> With no units on the field, your economy generates 300 points per minute. <br>
+                        <strong style="color: #00BADE;">Unit Purchases:</strong> Buying units reduces this 300 points/minute income. The current income rate is displayed in the upper left of the UI (+XXX per minute). <br>
+                        <strong style="color: #00BADE;">Death Tax Removed:</strong> If your unit dies, its 'value' is immediately added back into your economy calculation, increasing your income rate. There is no longer a delay ('death tax') before this value is returned.
+                    </p>
                 </div>
                 <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                    <h3 class="text-xl font-bold mb-4 flex items-center"><span class="mr-3 text-xl" style="color: #00A1E4;">🤝</span>Solo vs. Team Deck Specialization</h3>
-                    <p class="mt-4 text-gray-400">For solo play, a well-rounded, versatile deck that can adapt to various threats is generally recommended. However, in team play, consider specializing your deck. One player might focus on defensive assets (TOWs, Stingers, SAMs), while another builds an offensive deck (infantry, fast vehicles, recon). This allows for greater synergy and efficiency in coordinated team strategies.</p>
+                    <h3 class="text-xl font-bold mb-4 flex items-center"><span class="mr-3 text-xl" style="color: #00A1E4;">💨</span>Smoke Usage</h3>
+                    <p class="mt-4 text-gray-400">
+                        <strong style="color: #00BADE;">Line of Sight (LoS) Break:</strong> Smoke immediately breaks LoS. <br>
+                        <strong style="color: #00BADE;">Sources:</strong> Some infantry and vehicles can deploy smoke (uses must be resupplied). Artillery can also lay down smoke in three different patterns. <br>
+                        <strong style="color: #00BADE;">Tactical Use:</strong> Use smoke to cover advances, retreats, or to temporarily blind enemy positions, especially those with powerful long-range fire. Be aware that firing within smoke can reveal your position due to the "flash effect."
+                    </p>
                 </div>
                 <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                    <h3 class="text-xl font-bold mb-4 flex items-center"><span class="mr-3 text-xl" style="color: #00A1E4;">✈️</span>Air Superiority is Key</h3>
-                    <p class="mt-4 text-gray-400">When relying on air assets, especially bombers or strike jets, ensure your deck includes sufficient Air Superiority Fighters (ASFs). If the enemy gains air superiority, your high-value offensive air units can be denied from entering the battlefield or quickly destroyed. ASFs are crucial for protecting your investment and ensuring your air strategy can be executed effectively.</p>
+                    <h3 class="text-xl font-bold mb-4 flex items-center"><span class="mr-3 text-xl" style="color: #00A1E4;">🏃‍♂️</span>Sprint (Movement Modifier)</h3>
+                    <p class="mt-4 text-gray-400">
+                        <strong style="color: #00BADE;">Effect:</strong> Sprint negates the "Crouching" (Yellow) and "Prone" (Red) modifiers for a few seconds, allowing faster movement. <br>
+                        <strong style="color: #00BADE;">Limitations:</strong> Units cannot fire any weapon while Sprinting. Sprint is disabled when units are inside buildings. Sprint has a cooldown period after use. <br>
+                        <strong style="color: #00BADE;">Building Destruction:</strong> If a building containing enemy infantry is destroyed, the game performs a roll to determine if the units inside are killed.
+                    </p>
                 </div>
-                 <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                    <h3 class="text-xl font-bold mb-4 flex items-center"><span class="mr-3 text-xl" style="color: #00A1E4;">⚡</span>SEAD for Air Dominance</h3>
-                    <p class="mt-4 text-gray-400">SEAD (Suppression of Enemy Air Defense) jets are vital for dismantling enemy radar-guided anti-air systems. These jets carry anti-radiation missiles designed to outrange and neutralize enemy SAMs, creating safe corridors for your strike jets and bombers to operate without being immediately shot down. Prioritize SEAD to establish and maintain air dominance.</p>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold mb-4 flex items-center"><span class="mr-3 text-xl" style="color: #00A1E4;">🔥</span>Fire Control: Hold Fire (H) vs. Attack Move (Q)</h3>
+                    <p class="mt-4 text-gray-400">
+                        <strong style="color: #00BADE;">Hold Fire (H):</strong> A unit will only fire if it can see an enemy AND that enemy is about to fire at them. This is useful for maintaining stealth or preserving ammunition. <br>
+                        <strong style="color: #00BADE;">Attack Move (Q):</strong> A unit will stop and aim as soon as it spots an enemy, provided it can penetrate or damage that enemy. This is for aggressive engagement.
+                    </p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold mb-4 flex items-center"><span class="mr-3 text-xl" style="color: #00A1E4;">💥</span>Overkill Mechanic (Right Click)</h3>
+                    <p class="mt-4 text-gray-400">
+                        <strong style="color: #00BADE;">Purpose:</strong> Right-clicking on an enemy unit initiates an "Overkill" command. Your unit will attempt to expend all its munitions to destroy the target. <br>
+                        <strong style="color: #00BADE;">Against APS/AA:</strong> This is highly effective against vehicles with Active Protection Systems (APS) or anti-air (AA) systems that have cooldowns (e.g., 5 seconds for APS). By "overkilling," you can land multiple hits in rapid succession during the APS cooldown window, ensuring destruction. This applies to SEAD engagements as well.
+                    </p>
                 </div>
             </div>
         </section>
@@ -510,12 +593,12 @@
         };
 
         const specDatasetColors = [
-            '#00A1E4', // Recon (Primary)
-            '#00BADE', // Infantry (Secondary)
-            '#0076C0', // Vehicle (Tertiary)
-            '#005689', // Support (Dark)
-            '#F97316', // Helicopter (Accent1)
-            '#10B981', // Air (Accent2)
+            '#00A1E4',
+            '#00BADE',
+            '#0076C0',
+            '#005689',
+            '#F97316',
+            '#10B981',
         ];
 
         new Chart(document.getElementById('usSpecChart').getContext('2d'), {
@@ -553,4 +636,3 @@
     </script>
 </body>
 </html>
-
